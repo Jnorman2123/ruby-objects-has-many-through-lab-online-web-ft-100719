@@ -1,3 +1,7 @@
 class Genre
+  attr_accessor :type
 
-end 
+  def initialize(type)
+    @type = type
+  end
+end
