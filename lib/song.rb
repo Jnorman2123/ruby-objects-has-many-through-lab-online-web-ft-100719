@@ -6,5 +6,6 @@ class Song
     @title = title
     @artist = artist
     @genre = genre
+    @@all << self
   end
 end
